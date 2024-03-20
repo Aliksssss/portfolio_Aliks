@@ -4,6 +4,7 @@ import { motion, useInView, useScroll } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
 
+
 const AboutPage = () => {
   const containerRef = useRef();
 
@@ -31,7 +32,7 @@ const AboutPage = () => {
           <div className="flex flex-col gap-12 justify-center">
             {/* BIOGRAPHY IMAGE */}
             <Image
-              src="https://images.pexels.com/photos/775358/pexels-photo-775358.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="/profileimage.jpg"
               alt=""
               width={112}
               height={112}
