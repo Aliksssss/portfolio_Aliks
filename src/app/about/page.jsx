@@ -42,10 +42,7 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              harum quibusdam cupiditate nobis accusamus sed aut aperiam,
-              reiciendis numquam! Voluptas voluptatibus obcaecati dolore itaque
-              suscipit! Vel doloremque numquam quam nihil.
+              Full-Stack Software Developer transitioning from a career in nursing with a passion for innovation, creativity, and analysis. Seeking to contribute to a team through problem-solving, task-prioritization, and project management.I believe in approaching life with out-of-the-box thinking and am always working towards big goals. In order to accomplish big ideas, goals, and dreams, you have to be willing to go against the grain and stretch yourself.
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
