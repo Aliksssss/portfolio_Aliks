@@ -35,19 +35,19 @@ const contactPage = () => {
 
         {/*FORM CONTAINER*/}
         <form className="h-[430px] lg:h-full lg:w-1/2 bg-gradient-to-b from-yellow-300 to-black rounded-xl text-xl flex flex-col gap-8 justify-center p-24 sm:p-36 mt-3">
-          <span>Dear Ps Customers</span>
+          <span className="text-sm lg:text-lg">Dear Ps Customers</span>
           <textarea
             rows={2}
-            className="bg-transparent border-b-2 border-b-black outline-none resize-none"
+            className="bg-transparent border-b-2 border-b-black outline-none resize-none text-sm lg:text-lg"
           />
-          <span>Our email address is</span>
+          <span className="text-sm lg:text-lg ">Our email address is</span>
           <input
             type="text"
-            className="bg-transparent border-b-2 border-b-black outline-none resize-none"
+            className="bg-transparent border-b-2 border-b-black outline-none resize-none text-sm lg:text-lg"
           />
           <span>Regards</span>
-          <button className="bg-blue-700 rounded font-semibold text-white p-4">
-            Send📩
+          <button className="bg-blue-900 rounded font-semibold text-white p-2 md:p-4 text-sm lg:text-lg">
+            Send 📩
           </button>
         </form>
       </div>

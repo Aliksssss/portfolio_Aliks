@@ -4,6 +4,9 @@ import React from "react";
 import Navbar from "./navbar";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
+import Footer from "./footer";
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css'
 
 const PageTransitionProvider = ({ children }) => {
   const pathname = usePathname();
@@ -44,6 +47,8 @@ const PageTransitionProvider = ({ children }) => {
           <Navbar />
         </div>
         <div className="h-[calc(100vh-96px)]">{children}</div>
+        <Footer/>
+        <ToastContainer position='top-right' theme='dark' autoClose={4000}/>
       </div>
     </AnimatePresence>
   );

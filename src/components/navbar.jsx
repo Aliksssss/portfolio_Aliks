@@ -6,6 +6,7 @@ import { motion } from "framer-motion"
 import Link from "next/link"
 import Image from "next/image"
 import NavLink from "./navLink"
+import AdToCart from "./cart-logo"
 
 const Navbar = () => {
 
@@ -132,6 +133,8 @@ const Navbar = () => {
                 <Link href="">
                     <Image src="/linkedin.png" alt="github" width={24} height={24} />
                 </Link>
+                <AdToCart/>
+
             </div>
 
             {/*end of social media links*/}
