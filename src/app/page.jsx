@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import React from "react";
 
-const text = "Creating Fashion";
+const text = "Welcome To Ps SH";
 
 const HomePage = () => {
   return (
