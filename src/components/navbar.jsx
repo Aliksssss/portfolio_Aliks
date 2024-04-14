@@ -69,7 +69,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl">
+    <div className="h-full flex items-center px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl">
       {/* LOGO */}
       <div className="md:hidden lg:flex xl:w-1/3 xl:justify-center">
         <Link
@@ -82,14 +82,8 @@ const Navbar = () => {
           </span>
         </Link>
       </div>
-      {/* LINKS */}
-      <div className="hidden md:flex gap-4 w-1/3">
-        {links.map((link) => (
-          <NavLink link={link} key={link.title} />
-        ))}
-      </div>
       {/* SOCIAL */}
-      <div className="hidden md:flex justify-end gap-4 w-1/3">
+      <div className="hidden md:flex ml-4 justify-start gap-4 w-1/3">
         <div>
           <a href="https://github.com/jordyneajensen" target="_blank" rel="noopener noreferrer">
             <Image src="/github.png" alt="" width={24} height={24} />
@@ -98,6 +92,12 @@ const Navbar = () => {
         <Link href="https://www.linkedin.com/in/jordyneajensen/">
           <Image src="/linkedin.png" alt="" width={24} height={24} />
         </Link>
+      </div>
+      {/* LINKS */}
+      <div className="hidden md:flex gap-4 w-1/3">
+        {links.map((link) => (
+          <NavLink link={link} key={link.title} />
+        ))}
       </div>
       {/* RESPONSIVE MENU */}
       <div className="md:hidden">
