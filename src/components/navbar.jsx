@@ -89,9 +89,9 @@ const Navbar = () => {
             <Image src="/github.png" alt="" width={24} height={24} />
           </a>
         </div>
-        <Link href="https://www.linkedin.com/in/jordyneajensen/">
+        <a href="https://www.linkedin.com/in/jordyneajensen/" target="_blank" rel="noopener noreferrer">
           <Image src="/linkedin.png" alt="" width={24} height={24} />
-        </Link>
+        </a>
       </div>
       {/* LINKS */}
       <div className="hidden md:flex gap-4 w-2/3 justify-end">
