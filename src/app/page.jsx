@@ -15,20 +15,18 @@ const Homepage = () => {
       <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* IMAGE CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 relative">
-          <Image src="/hero.png" alt="" fill className="object-contain" />
+          <Image src="/hero2.svg" alt="" fill className="object-contain" />
         </div>
         {/* TEXT CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
           {/* TITLE */}
           <h1 className="text-4xl md:text-6xl font-bold">
-            Crafting Digital Experiences, Designing Tomorrow.
+            Jordyn Jensen
           </h1>
+          <h2 className="text-3xl md:text4xl font-bold">Full Stack Software Engineer</h2>
           {/* DESC */}
           <p className="md:text-xl">
-            Welcome to my digital canvas, where innovation and creativity
-            converge. With a keen eye for aesthetics and a mastery of code, my
-            portfolio showcases a diverse collection of projects that reflect my
-            commitment to excellence. Jordyn
+          Welcome to my digital canvas, where innovation and creativity converge. As a Full-Stack Software Developer transitioning from nursing, I bring empathy, analytical rigor, and a drive for improvement to every project. My portfolio showcases a fusion of technical expertise and creative vision, spanning from Typescript and React to Docker and SQL. Driven by a passion for innovation and a commitment to excellence, I thrive on problem-solving and project management. Join me in crafting the future, where challenges become opportunities, and together, we design tomorrow's digital experiences.
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
