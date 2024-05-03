@@ -8,7 +8,7 @@ const items = [
   {
     id: 1,
     color: "from-red-300 to-blue-300",
-    title: "React Commerce",
+    title: "Paw Spot",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
     img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
     link: "https://lama.dev",
@@ -100,15 +100,15 @@ const PortfolioPage = () => {
             </defs>
             <text fill="#000">
               <textPath xlinkHref="#circlePath" className="text-xl">
-                Front-end Developer and UI Designer
+                Front-end, Backend, & Cloud Developer
               </textPath>
             </text>
           </motion.svg>
           <Link
-            href="/contact"
-            className="w-16 h-16 md:w-28 md:h-28 absolute top-0 left-0 right-0 bottom-0 m-auto bg-black text-white rounded-full flex items-center justify-center"
-          >
+            href="/contact"><button
+           className="w-16 h-16 md:w-28 md:h-28 absolute top-0 left-0 right-0 bottom-0 m-auto bg-black text-white rounded-full flex items-center justify-center hover:bg-black hover:text-white">
             Hire Me
+            </button>
           </Link>
         </div>
       </div>
