@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    gap: 100px;
+    align-content: center;
+    flex-direction: row;
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}

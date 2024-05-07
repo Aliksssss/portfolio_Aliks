@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    bottom: 0%;
+}
+
+.img{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.h3{
+    font-size: 10px; 
+}
+
+.rrss{
+    margin: auto;
+}

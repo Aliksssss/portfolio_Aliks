@@ -1,0 +1,103 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imageWrapper {
+    align-items: center;
+    flex-direction: row;
+    padding-top: 3rem;
+    margin-left: 0;
+    max-width: 80%;
+}
+
+.imageText {
+  visibility: hidden;
+  margin-top: 2rem;
+  font-size: larger;
+  max-width: 80%;
+  opacity: 1;
+}
+
+.imgContainer {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.py-6:hover .imageText {
+  visibility: visible;
+}
+
+.mobileImages {
+    display: none;
+}
+
+
+@media (max-width: 768px){
+    .imageWrapper{
+        display: none;
+        visibility: hidden;
+    }
+    
+    .mobileImages {
+        display: block;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        margin-top: 10rem;
+    }
+    
+    .imageGroup {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        margin-left: 2rem;
+        margin-right: 3rem;
+    }
+    
+    .p {
+        margin-top: 20px;
+        font-size: medium;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 640px){
+    .imageWrapper{
+        display: none;
+        visibility: hidden;
+    }
+    .mobileImages {
+        display: block;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        margin-top: 10rem;
+    }
+    
+    .imageGroup {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        margin-left: 2rem;
+        margin-right: 3rem;
+    }
+    
+    .p {
+        margin-top: 20px;
+        font-size: medium;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+
