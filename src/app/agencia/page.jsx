@@ -1,5 +1,5 @@
 import Image from "next/image"
-import styles from '@/app/agencia/Agencia.module.css'
+import styles from '@/app/agencia/agencia.module.css'
 
 const Agency = () => {
   return (
