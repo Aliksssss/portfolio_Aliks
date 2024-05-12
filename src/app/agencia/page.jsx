@@ -4,12 +4,12 @@ import styles from '@/app/agencia/agencia.module.css'
 const Agency = () => {
   return (
     <div className={styles.container}>
-      <div className='flex justify-center items-center'>
-        <Image src='/kriptonite-logo.png' alt="" width={100} height={30} className="brightness-50"></Image>
+      <div className={styles.imgContainer}>
+        <Image src='/kriptonite-logo.png' alt="" width={150} height={100} className="brightness-50"></Image>
         <Image src='/agencia_2.png' alt="" width={372} height={10} className="brightness-50"></Image>
       </div>
       <div>
-        <p>
+        <p className={styles.p}>
           En nuestra agencia de publicidad nos enorgullece ofrecer soluciones creativas e innovadoras para promover y posicionar marcas en el mercado. 
           Nuestro equipo de expertos multidisciplinarios está comprometido en ofrecer resultados excepcionales a nuestros clientes al implementar estrategias de marketing efectivas y campañas publicitarias impactantes.
 
