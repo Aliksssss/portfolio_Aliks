@@ -25,9 +25,9 @@ const items = [
     id: 3,
     color: "from-violet-300 to-purple-300",
     title: "Pig Latin",
-    desc: "React, CSS to build out a pig latin translator that takes in a phrase and outputs that phrase in pig latin.",
-    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    desc: "A PigLatin Translator showcasing my proficiency in react. Tech Stack: React, JS, and CSS. Key Features Include: real-time translation, user-friendly interface, state management, form handling, custom translation logic, and error handling. This project emphasizes user interaction, real-time data processing, and efficient algorithm implementation.",
+    img: "/PigLatinTranslatorImage.png",
+    link: "https://piglatin-translator.onrender.com/",
   },
   {
     id: 4,
@@ -35,7 +35,7 @@ const items = [
     title: "Spotify Music App",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
     img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    link: "https://lama.dev",
+    link: "",
   },
 ];
 
