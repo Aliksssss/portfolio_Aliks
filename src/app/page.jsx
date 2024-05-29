@@ -26,7 +26,7 @@ const Homepage = () => {
           <h2 className="text-3xl md:text4xl font-bold">Full Stack Software Engineer</h2>
           {/* DESC */}
           <p className="md:text-xl">
-          Welcome to my digital canvas, where innovation and creativity converge. As a Full-Stack Software Developer transitioning from nursing, I bring empathy, analytical rigor, and a drive for improvement to every project. My portfolio showcases a fusion of technical expertise and creative vision, spanning from Typescript and React to Docker and SQL. Driven by a passion for innovation and a commitment to excellence, I thrive on problem-solving and project management. Join me in crafting the future, where challenges become opportunities, and together, we design tomorrow's digital experiences.
+          Welcome to my digital canvas, where innovation and creativity converge. As a Full-Stack Software Developer transitioning from nursing, I bring empathy, analytical rigor, and a drive for improvement to every project. My portfolio showcases a fusion of technical expertise and creative vision, spanning from Typescript and React to Docker and SQL. Driven by a passion for innovation and a commitment to excellence, I thrive on problem-solving and project management. Join me in crafting the future, where challenges become opportunities and together, we design tomorrow's digital experiences.
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4">

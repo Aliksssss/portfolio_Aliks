@@ -46,7 +46,7 @@ const AboutPage = () => {
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
-              My motto for life and approaching fun, challenging projects: "In omnia paratus" - latin for "ready for anything."
+              My motto for life and approaching fun, challenging projects: &quotIn omnia paratus&quot - latin for &quotready for anything.&quot
             </span>
             {/* BIOGRAPHY SIGN SVG*/}
             <div className="self-end">

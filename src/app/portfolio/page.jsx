@@ -5,22 +5,22 @@ import Link from "next/link";
 import { useRef, useEffect } from "react";
 
 const items = [
-  {
-    id: 1,
-    color: "from-red-300 to-blue-300",
-    title: "Paw Spot",
-    desc: "React in Rails, Jest, Enzyme, CSS, Reactstrap, Bootstrap, Ruby, implemented APIs for an interactactive application.",
-    img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
-  },
-  {
-    id: 2,
-    color: "from-blue-300 to-violet-300",
-    title: "Cat Tinder",
-    desc: "React, Jest, Enzyme, CSS, Reactstrap, Bootstrap, Ruby, implemented APIs for an interactactive application",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
-  },
+  // {
+  //   id: 1,
+  //   color: "from-red-300 to-blue-300",
+  //   title: "Paw Spot",
+  //   desc: "React in Rails, Jest, Enzyme, CSS, Reactstrap, Bootstrap, Ruby, implemented APIs for an interactactive application.",
+  //   img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+  //   link: "https://lama.dev",
+  // },
+  // {
+  //   id: 2,
+  //   color: "from-blue-300 to-violet-300",
+  //   title: "Travel App",
+  //   desc: "This project is a responsive web application that is also mobile-friendly for outdoor enthusiasts, built using Next.js and React for server-side rendering and dynamic user interfaces. It employs Tailwind CSS for efficient and responsive styling, and TypeScript for robust type safety. Key features include dynamic navigation, visually compelling hero and campsite sections with optimized images, and a feature-rich footer demonstrating UI/UX design skills. The application leverages centralized constants for easy configuration and updates, and static assets are efficiently served from the public directory. ",
+  //   img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+  //   link: "https://lama.dev",
+  // },
   {
     id: 3,
     color: "from-violet-300 to-purple-300",
@@ -29,14 +29,14 @@ const items = [
     img: "/PigLatinTranslatorImage.png",
     link: "https://piglatin-translator.onrender.com/",
   },
-  {
-    id: 4,
-    color: "from-purple-300 to-red-300",
-    title: "Spotify Music App",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    link: "",
-  },
+  // {
+  //   id: 4,
+  //   color: "from-purple-300 to-red-300",
+  //   title: "Spotify Music App",
+  //   desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+  //   img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  //   link: "",
+  // },
 ];
 
 const PortfolioPage = () => {
