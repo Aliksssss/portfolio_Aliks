@@ -69,7 +69,7 @@ const PortfolioPage = () => {
                     {item.title}
                   </h1>
                   <div className="relative w-full h-56 md:h-64 lg:h-80">
-                    <Image src={item.img} alt={item.title} layout="fill" objectFit="cover" />
+                    <Image src={item.img} alt={item.title} fill className="object-cover" />
                   </div>
                   <p className="text-sm md:text-lg lg:text-xl">
                     {item.desc}
