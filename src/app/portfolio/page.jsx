@@ -13,14 +13,14 @@ const items = [
   //   img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
   //   link: "https://lama.dev",
   // },
-  // {
-  //   id: 2,
-  //   color: "from-blue-300 to-violet-300",
-  //   title: "Travel App",
-  //   desc: "This project is a responsive web application that is also mobile-friendly for outdoor enthusiasts, built using Next.js and React for server-side rendering and dynamic user interfaces. It employs Tailwind CSS for efficient and responsive styling, and TypeScript for robust type safety. Key features include dynamic navigation, visually compelling hero and campsite sections with optimized images, and a feature-rich footer demonstrating UI/UX design skills. The application leverages centralized constants for easy configuration and updates, and static assets are efficiently served from the public directory. ",
-  //   img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-  //   link: "https://lama.dev",
-  // },
+  {
+    id: 2,
+    color: "from-blue-300 to-violet-300",
+    title: "Travel App",
+    desc: "This project is a responsive web application that is also mobile-friendly for outdoor enthusiasts, built using Next.js and React for server-side rendering and dynamic user interfaces. It employs Tailwind CSS for efficient and responsive styling, and TypeScript for robust type safety. Key features include dynamic navigation, visually compelling hero and campsite sections with optimized images, and a feature-rich footer demonstrating UI/UX design skills. The application leverages centralized constants for easy configuration and updates, and static assets are efficiently served from the public directory. ",
+    img: "/Travel-App.png",
+    link: "https://travel-app-xfj5.onrender.com/",
+  },
   {
     id: 3,
     color: "from-violet-300 to-purple-300",
