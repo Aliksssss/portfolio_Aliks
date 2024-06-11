@@ -32,7 +32,7 @@ const AboutPage = () => {
           <div className="flex flex-col gap-12 justify-center">
             {/* BIOGRAPHY IMAGE */}
             <Image
-              src="/profileimage.jpg"
+              src="/portfoliopic.JPG"
               alt=""
               width={112}
               height={112}
@@ -42,14 +42,12 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-              Full-Stack Software Developer transitioning from a career in nursing with a passion for innovation, creativity, and analysis. Seeking to contribute to a team through problem-solving, task-prioritization, and project management. I believe in approaching life with out-of-the-box thinking and am always working towards big goals. In order to accomplish big ideas, goals, and dreams, you have to be willing to go against the grain and stretch yourself.
+            As a Full-Stack Software Developer transitioning from nursing, I bring empathy, analytical rigor, and a drive for improvement to every project. Driven by a passion for innovation and a commitment to excellence, I thrive on problem-solving and project management. Join me in crafting the future, where challenges become opportunities and together, we design digital experiences of tomorrow.
+            <br /><br />
+            Seeking to contribute to a team through problem-solving, task-prioritization, and full-stack development. I believe in approaching life with out-of-the-box thinking and am always working towards big goals. In order to accomplish big ideas, goals, and dreams, you have to be willing to go against the grain and stretch yourself.
             </p>
-            {/* BIOGRAPHY QUOTE */}
-            <span className="italic">
-              My motto for life and approaching fun, challenging projects: &quotIn omnia paratus&quot - latin for &quotready for anything.&quot
-            </span>
             {/* BIOGRAPHY SIGN SVG*/}
-            <div className="self-end">
+            <div className="self-end" style={{ marginTop: '2px' }}>
               <Image src="/signature.svg" alt="" width={200} height={100}/>
             </div>
             {/* BIOGRAPHY SCROLL SVG */}

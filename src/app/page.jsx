@@ -24,11 +24,11 @@ const Homepage = () => {
             Jordyn Jensen
           </h1>
           <h2 className="text-3xl md:text4xl font-bold">Full Stack Software Engineer</h2>
+          <h3 className="text-xl md:text-2xl font-bold: 200">React | Typescript | Javascipt | Rails | Azure</h3>
           {/* DESC */}
           <p className="md:text-xl">
-          Welcome to my digital canvas, where innovation and creativity converge. As a Full-Stack Software Developer transitioning from nursing, I bring empathy, analytical rigor, and a drive for improvement to every project. My portfolio showcases a fusion of technical expertise and creative vision, spanning from Typescript and React to UI/UX design. Driven by a passion for innovation and a commitment to excellence, I thrive on problem-solving and project management. Join me in crafting the future, where challenges become opportunities and together, we design digital experiences of tomorrow.
+          I'm a Full-Stack Software Developer specializing in React, Typescript, Javascript, Rails, and Azure. My current interests include Python and Flask. I had a 3 month internship at SurgAlign, and have built applications for the biomedical industry. I bring empathy, analytical rigor, and a drive for improvement to every project. My background is in nursing where I completed the RN new grad program for medical-surgical floor and have over 1 year of experience.
           </p>
-          <p>Tech Stack: React, Next.js, Typescript, Ruby, Azure, Docker</p>
           
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
