@@ -27,7 +27,7 @@ const Homepage = () => {
           <h3 className="text-xl md:text-2xl font-bold: 200">React | Typescript | Javascipt | Rails | Azure</h3>
           {/* DESC */}
           <p className="md:text-xl">
-          I'm a Full-Stack Software Developer specializing in React, Typescript, Javascript, Rails, and Azure. My current interests include Python and Flask. I had a 3 month internship at SurgAlign, and have built applications for the biomedical industry. I bring empathy, analytical rigor, and a drive for improvement to every project. My background is in nursing where I completed the RN new grad program for medical-surgical floor and have over 1 year of experience.
+          I am a Full-Stack Software Developer specializing in React, Typescript, Javascript, Rails, and Azure. My current interests include Python and Flask. I had a 3 month internship at SurgAlign, and have built applications for the biomedical industry. I bring empathy, analytical rigor, and a drive for improvement to every project. My background is in nursing where I completed the RN new grad program for medical-surgical floor and have over 1 year of experience.
           </p>
           
           {/* BUTTONS */}
